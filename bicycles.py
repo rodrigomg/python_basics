@@ -8,3 +8,5 @@ print(bicycles[-2].title())
 print(bicycles[-3].title())
 print(bicycles[-4].title())
 
+message = "My firts bicycle was a " +bicycles[0].title()+"."
+print(message)
