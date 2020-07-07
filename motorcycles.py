@@ -13,6 +13,9 @@ motorcycles.append('honda')
 motorcycles.append('yamaha')
 print(motorcycles)
 
+motorcycles.insert(0,'ducati')
+print(motorcycles)
+
 
 
 
