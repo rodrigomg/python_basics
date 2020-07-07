@@ -7,4 +7,12 @@ print(motorcycles)
 motorcycles.append('ktm')
 print(motorcycles)
 
+motorcycles = []
+motorcycles.append('ktm')
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+print(motorcycles)
+
+
+
 
