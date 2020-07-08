@@ -25,4 +25,7 @@ print(motorcycles)
 print("The last motorcycle I owned was a " + popped_motorcycle.title() + ".")
 print("The firs motorcycle I owned was a " + first_motorcycle.title() + ".")
 
-
+motorcycles = ['honda','yamaha','suzuki']
+print(motorcycles)
+motorcycles.remove('honda')
+print(motorcycles)
