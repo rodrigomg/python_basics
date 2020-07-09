@@ -36,3 +36,18 @@ print("Hi " + people[5] + " would you like go to dinner")
 print("Hi " + people[6] + " would you like go to dinner")
 print("Hi " + people[7] + " would you like go to dinner")
 
+print("------------------------------------------------")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print("I'm sorry " + people.pop() + " you´re not invited yet")
+print(people)
+print("Hi " + people[0] + " you´re still invited to dinner")
+print("Hi " + people[1] + " you´re still invited to dinner")
+
+print("------------------------------------------------")
+del people[0]
+del people[0]
+print(people)
