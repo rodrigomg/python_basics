@@ -47,7 +47,9 @@ print(people)
 print("Hi " + people[0] + " you´re still invited to dinner")
 print("Hi " + people[1] + " you´re still invited to dinner")
 
+print("People who have beeen invited to dinner: " + str(len(people)))
 print("------------------------------------------------")
 del people[0]
 del people[0]
 print(people)
+print("People who have beeen invited to dinner: " + str(len(people)))
