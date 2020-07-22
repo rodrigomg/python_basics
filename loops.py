@@ -15,3 +15,6 @@ for odd_number in odd_numbers:
 multiples_of_three = range(3,30,3)
 for multiple_of_three in multiples_of_three:
     print(multiple_of_three)
+
+cubes = [value**3 for value in range(1,10)]
+print(cubes)
