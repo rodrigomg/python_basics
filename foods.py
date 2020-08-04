@@ -1,4 +1,4 @@
-my_foods = ['pizza','falafel','carrot cake']
+my_foods = ['pizza','falafel','carrot cake','steak','tacos']
 
 friend_foods = my_foods[:]
 # Don´t do this ¬¬
@@ -12,3 +12,7 @@ print(my_foods)
 
 print("\nMy friend´s favorite foods are:")
 print(friend_foods)
+
+print(my_foods[:3])
+print(my_foods[1:4])
+print(my_foods[3:])
