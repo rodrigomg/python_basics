@@ -16,3 +16,9 @@ print(friend_foods)
 print(my_foods[:3])
 print(my_foods[1:4])
 print(my_foods[3:])
+
+for food in my_foods:
+    print("My food: " + food)
+
+for food in friend_foods:
+    print("My friend´s food: " + food)
