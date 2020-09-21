@@ -20,7 +20,7 @@ else:
     print("Are you sure you want a plain pizza?")
 
 available_toppings = ['mushrooms', 'olives','green peppers','pepperoni','pineapple','extra cheese']
-requested_toppings = ['mushrooms','french fies','extra chesse']
+requested_toppings = ['mushrooms','french fies','extra cheese']
 
 for requested_topping in requested_toppings:
     if requested_topping in available_toppings:
