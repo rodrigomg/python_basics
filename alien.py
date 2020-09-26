@@ -18,3 +18,7 @@ alien_E['color'] = 'green'
 alien_E['points'] = 5
 
 print(alien_E)
+
+alien_E['color'] = 'yellow'
+
+print("The alien is now " + alien_E['color'] +".")
