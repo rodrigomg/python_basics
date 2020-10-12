@@ -42,3 +42,8 @@ else:
 alien_P['x_position'] =alien_P['x_position'] + x_increment
 
 print("New x_position: " + str(alien_P['x_position']))
+
+alien_O = {'color':'green','points':5}
+print(alien_O)
+del alien_O['points']
+print(alien_O)
