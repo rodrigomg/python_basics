@@ -18,6 +18,9 @@ for name in favorite_languages:
     if name in friends:
         print("Hi " + name.title() + ", I see your favorite language is " +favorite_languages[name].title()+ "!")
 
+    if 'erin' not in favorite_languages.keys():
+        print("Erin, please take our pool!")
+
 print(favorite_languages)
 
 print("Sarah´s favorite language is " +
