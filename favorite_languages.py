@@ -23,6 +23,13 @@ for name in favorite_languages:
 
 print(favorite_languages)
 
-print("Sarah´s favorite language is " +
+print("Sarah's favorite language is " +
         favorite_languages['sarah'].title() +
         ".")
+
+for name in sorted(favorite_languages.keys()):
+    print(name.title()+" , thank you for taking the poll.")
+
+print("The following languages have been mentioned;")
+for name in favorite_languages.values():
+    print(name.title())
