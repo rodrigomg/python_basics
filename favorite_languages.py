@@ -2,7 +2,8 @@ favorite_languages = {
         'jen':'python',
         'sarah':'c',
         'edward':'ruby',
-        'phill':'ptthon',
+        'phill':'python',
+        'rock':'python',
         }
 
 for name, language in favorite_languages.items():
@@ -32,4 +33,7 @@ for name in sorted(favorite_languages.keys()):
 
 print("The following languages have been mentioned;")
 for name in favorite_languages.values():
+    print(name.title())
+print("The following languages have been mentioned; unique cases")
+for name in set(favorite_languages.values()):
     print(name.title())
